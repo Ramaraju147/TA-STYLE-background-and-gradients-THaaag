@@ -1,0 +1,317 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #1d2029;
+  color: white;
+}
+
+.box-1 {
+  background-color: #20222f;
+  height: 230px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+p {
+  color: #9197bc;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+i {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 76px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+h3 {
+  font-size: 42px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.toggle-off {
+  height: 25px;
+  width: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgb(73, 138, 192),
+    rgb(62, 206, 148)
+  );
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.toggle-off-btn {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(38, 43, 66);
+  display: inline-block;
+  margin-left: 3px;
+}
+
+main .container {
+  padding: 0px;
+}
+
+.box {
+  height: 230px;
+  width: 250px;
+  background-color: rgb(37, 43, 67);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px 0px;
+  border-radius: 4px;
+}
+
+.statbox {
+  height: 130px;
+  width: 250px;
+  background-color: rgb(37, 43, 67);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.border-top-fb {
+  border-top: 3px solid rgb(26, 143, 246);
+}
+
+.border-top-fb {
+  border-top: 3px solid rgb(26, 143, 246);
+}
+
+.border-top-insta {
+  height: 230px;
+  width: 250px;
+  background-color: rgb(37, 43, 67);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px 0px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.border-top-insta::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, rgb(248, 190, 112), rgb(225, 75, 149));
+  top: 0px;
+  left: 0;
+}
+
+.border-top-youtube {
+  border-top: 3px solid red;
+}
+
+.icon-1 {
+  color: rgb(26, 143, 246);
+}
+
+.icon-2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 190, 112),
+    rgb(225, 75, 149)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fab {
+  display: inline;
+}
+
+.icon-3 {
+  color: red;
+}
+
+.box-text {
+  letter-spacing: 2.5px;
+  font-weight: 100;
+}
+
+.flex-center i {
+  margin-right: 10px;
+}
+
+.icon-padding-top {
+  padding-top: 7px;
+}
+
+.icon-padding-bottom {
+  padding-bottom: 7px;
+}
+
+.stats {
+  padding: 35px 0;
+}
+
+.stats-section {
+  padding: 30px 0;
+}
